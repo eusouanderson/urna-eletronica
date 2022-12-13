@@ -53,7 +53,7 @@ class software(tk.Tk):
         photo = ImageTk.PhotoImage(img_candidato2)
         self.imagem = Label(self, text="adicionando", image=photo)
         self.imagem.image = photo
-        self.imagem.grid(column=2, row=15)
+        self.imagem.grid(column=0, row=15)
 
     def bolsonaro(self):
 
@@ -61,7 +61,7 @@ class software(tk.Tk):
         photo = ImageTk.PhotoImage(img_candidato1)
         self.imagem = Label(self, text="adicionando", image=photo)
         self.imagem.image = photo
-        self.imagem.grid(column=0, row=15)
+        self.imagem.grid(column=2, row=15)
 
 
 if __name__ == "__main__":
